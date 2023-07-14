@@ -1,0 +1,108 @@
+body {
+    background-color: #FBFBFB;
+}
+
+.link {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.link,
+.link:active,
+.link:visited {
+    color: #2196F3;
+}
+
+h1.title {
+    font-style: 40px;
+    color: #252733;
+    font-weight: 600;
+}
+
+.button {
+    border-radius: 4px;
+    background: #2196F3;
+    color: #fff;
+    font-style: 18px;
+    font-weight: 600;
+    padding: 16px 40px;
+    border: 1px solid #2196F3;
+}
+
+.button_border {
+    background-color: transparent;
+    color: #2196F3;
+}
+
+.header {
+    background-color: #F7F7F7;
+    padding: 38px 0;
+    margin-bottom: 45px;
+}
+
+.balance .dropdown-toggle {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2196F3;
+}
+
+.balance .dropdown-toggle,
+.balance .dropdown-toggle:focus,
+.balance .dropdown-toggle:active {
+    outline: none;
+    box-shadow: none;
+    border: 0 none;
+}
+
+.balance .dropdown-toggle span {
+    color: #252733;
+    display: inline-block;
+    margin-right: 18px;
+}
+
+.logout {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.qualifications {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.qualifications .btn-group {
+    border-radius: 4px;
+    border: 2px solid #E3E3E7;  
+    padding: 12px;
+}
+
+.qualifications .btn-group .btn {
+    color: #ACAEBD;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 32px;
+}
+
+.qualifications .btn-group .btn-check:checked + .btn {
+    border-radius: 1px;
+    background: #2196F3;    
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    border: 0 none;
+}
+
+.content__first-line {
+    margin-bottom: 32px;
+}
+
+.content__second-line {
+    margin-bottom: 47px;
+}
+
+.content__second-line .button:not(:last-child) {
+    margin-right: 12px;
+}
+
+.table__header {
+    background-color: #E3EDFB;
+}
